@@ -4,3 +4,11 @@ language = "zh"
 multilingual = false
 src = "src"
 title = "Netty学习笔记"
+
+[output.html.fold]
+enable = false #展开或收缩菜单标签
+
+[output.html]
+git-repository-url = "https://github.com/waylau/netty-4-user-guide-demos"
+
+[rust]
