@@ -12,3 +12,4 @@ enable = false #展开或收缩菜单标签
 git-repository-url = "https://github.com/waylau/netty-4-user-guide-demos"
 
 [rust]
+edition = "2021"
