@@ -3,7 +3,7 @@ authors = ["zmt"]
 language = "zh"
 multilingual = false
 src = "src"
-title = "Netty学习笔记"
+title = "JAVA核心编程"
 
 [output.html.fold]
 enable = false #展开或收缩菜单标签

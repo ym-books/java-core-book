@@ -6,7 +6,7 @@ Java NIO中的Buffer用于和NIO中的通道交互。数据可以从通道读入
 
 下面是缓冲区Buffer的一个家谱图：
 
-![](../res/chapter_2/a-3.png)
+![](../../res/io/chapter_2/a-3.png)
 
 如上图，是Buffer的类层次图。在顶部是通用Buffer类。Buffer定义所有缓冲区类型共有的操作，无论是它们所包含的数据类型还是可能具有的特定行为。这一共同点将会成为我们的出发点。
 

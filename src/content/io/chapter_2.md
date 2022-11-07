@@ -18,7 +18,7 @@
 [//]: # (图片居中显示，这里注意空行)
 <div style="text-align: center;">
 
-![Channels and Buffers](../res/chapter_2/a-1.jpg)
+![Channels and Buffers](../../res/io/chapter_2/a-1.jpg)
 </div>
 
 NIO中有几种Channel和Buffer的类型。下面是主要的Channel实现列表：
@@ -52,7 +52,7 @@ Selector允许用单个线程来处理多个的Channel。如果你的应用需�
 
 <div style="text-align: center;">
 
-![](../res/chapter_2/a-2.png)
+![](../../res/io/chapter_2/a-2.png)
 </div>
 
 <p style="text-align: center;">示意图</p>

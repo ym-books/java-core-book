@@ -67,5 +67,10 @@ public abstract class Buffer {
 	public abstract boolean isReadOnly( ); 
 }
 ```
+以上方法中，特别要注意下`isReadOnly()`方法，所有的缓冲区都是可读的，但并非所有的都可写。每个具体的缓冲区都可以通过执行`isReadOnly()`方法来标识其内容是否可以被修改。一些类型的缓冲区的内容可能并非只是存储在一个数组中，例如`MappedByteBuffer`的内容可能实际上是一个只读文件。您也可以明确的创建一个只读视图的缓冲区，以便防止对其内容进行修改。对只读的缓冲区的修改，将会导致抛出`ReadOnlyBufferException`异常。
+
+### 存取
+
+缓冲区管理着固定数目的数据元素，
 
 
