@@ -55,6 +55,7 @@
   - [命令模式-常用](content/design-patterns/command.md)
   - [责任链模式-常用](content/design-patterns/chainofresponsibility.md)
 - [JVM虚拟机理解](content/jvm/index.md)
+  - [JVM内存模型](content/jvm/memory-model.md)
 - [Netty编程](content/netty/index.md)
   - [Netty入门](content/netty/chapter_1.md)
       - [开发环境搭建](content/netty/chapter_1_1.md)
