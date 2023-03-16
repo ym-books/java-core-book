@@ -6,7 +6,7 @@ src = "src"
 title = "JAVA核心编程"
 
 [output.html.fold]
-enable = true #展开或收缩菜单标签
+enable = false #展开或收缩菜单标签
 
 [output.html]
 git-repository-url = "https://github.com/waylau/netty-4-user-guide-demos"
